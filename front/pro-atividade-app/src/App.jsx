@@ -12,7 +12,7 @@ export default function App() {
       <Route path="/" exact component={Dashboard} />
       <Route path="/atividade/lista" component={Atividade} />
       <Route path="/cliente/lista" component={Cliente} />
-      <Route path="/cliente/detalhe/:id" component={clienteForm} />
+      <Route path="/cliente/detalhe/:id?" component={clienteForm} />
       <Route component={PageNotFound} />
     </Switch>
   );
